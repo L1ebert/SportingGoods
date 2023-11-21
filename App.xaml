@@ -1,0 +1,23 @@
+﻿<Application x:Class="SportingGoods.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SportingGoods"
+             StartupUri="\View\Windows\AuthorizationWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="LightGreenI" Color="#498c51"/>
+        <SolidColorBrush x:Key="LightGreenII" Color="#76e383"/>
+
+        <!-- Кнопки -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource LightGreenI}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        </Style>
+        
+        <!-- Текст блоки -->
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+    </Application.Resources>
+</Application>

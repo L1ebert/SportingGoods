@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3117eaa1828a4bf4ab3d10c0686e4bba" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Composition" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Manufacturer" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Order" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.PickUpPoint" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Role" Width="1.5" PointX="1.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Status" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.Supplier" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SportingGoodsTFModel.User" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Composition_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Composition_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Order_PickUpPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="SportingGoodsTFModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
