@@ -41,13 +41,13 @@ namespace SportingGoods.ApplicationData
                             break;
                     }
                     return true;
-                }
-                else
-                {
-                    MessageBox.Show("Данные не верны. Возможно неверный логин или паролью");
-                }
-                return false;
+                }                
             }
+            else
+            {
+               MessageBox.Show("Данные не верны. Возможно неверный логин или паролью");
+            }
+            return false;
         }
     }
 }
