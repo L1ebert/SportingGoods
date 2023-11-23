@@ -29,7 +29,7 @@ namespace SportingGoods.View.Windows
 
         private void AuthorizationBtn_Click(object sender, RoutedEventArgs e)
         {
-            if(Authorization.Check(Convert.ToString(login.Text), PasswordPb.Password) == true)
+            if(Authorization.Check(Convert.ToString(EnterTb.Text), PasswordPb.Password) == true)
             {
                 DialogResult = true;
             }
